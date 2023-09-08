@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Traços e Cores: Cursos de desenhos</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+  </head>
+
+  <!-- Nav -->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4EDED;">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png">Traços e Cores</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre nós</a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div class="container">
+      <div id="carouselIndicators" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/slide1.jpg">
+            <div class="carousel-caption">
+              <h5 class="text-white">Curso de técnicas de desenho</h5>
+              <a href="servico1.html"><button type="button" class="btn">Acessar curso</button></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slide2.jpg">
+            <div class="carousel-caption">
+              <h5 class="text-white">Curso de técnicas de pintura</h5>
+              <a href="servico2.html"><button type="button" class="btn">Acessar curso</button></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slide3.jpg">
+            <div class="carousel-caption">
+              <h5 class="text-white">Curso de técnicas de arte digital</h5>
+              <a href="servico3.html"><button type="button" class="btn">Acessar curso</button></a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Catálogo -->
+    <div class="container" style="margin-top: 8vh;">
+      <div class="row"> 
+        <div class="col-12">
+          <h1 class="main-title">Catálogo de cursos</h1>
+        </div>
+      </div>
+      <div class="main">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/curso-desenho.jpeg">
+          <div class="card-body" style="background-color: #F4EDED;">
+            <h5 class="card-title">Curso de técnicas de desenho</h5>
+            <p class="card-text">Preço: R$ 25,00 mensais</p>
+            <a href="servico1.html" class="btn" style="text-align: center;">Acessar curso</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/curso-pintura.jpg">
+          <div class="card-body" style="background-color: #F4EDED;">
+            <h5 class="card-title">Curso de técnicas de pintura</h5>
+            <p class="card-text">Preço: R$ 40,00 mensais</p>
+            <a href="servico2.html" class="btn" style="text-align: center;">Acessar curso</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/curso-digital.jpg">
+          <div class="card-body" style="background-color: #F4EDED;">
+            <h5 class="card-title">Curso de arte digital</h5>
+            <p class="card-text">Preço: R$ 35,00 mensais</p>
+            <a href="servico3.html" class="btn" style="text-align: center;">Acessar curso</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Depoimentos -->
+    <div class="container">
+      <h1 class="main-title" style="margin-bottom: 15px ;">Depoimentos de clientes</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Depoimento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Maria Silva<img src="images/depoimento1.jpg" class="rounded float-left"></th>
+            <th>32 anos</th>
+            <th>"O curso da 'Traços e Cores' mudou minha vida. Desde criança, sonhava em ser uma artista, mas sempre achei que não tinha talento. No entanto, após ingressar no curso, descobri minha paixão e confiança para desenhar. Os instrutores são incríveis, a abordagem amigável e inclusiva me fez sentir à vontade desde o início. Hoje, estou criando obras de arte que nunca imaginei serem possíveis. Sou profundamente grata por essa experiência transformadora."</th>
+          </tr>
+          <tr>
+            <th>Pedro Santos<img src="images/depoimento2.jpg" class="rounded float-left"></th>
+            <th>17 anos</th>
+            <th>"Os cursos online da 'Traços e Cores' são simplesmente incríveis. Como um jovem apaixonado por desenho, eu estava em busca de orientação e aprimoramento. Os recursos on-line oferecidos pela empresa são extremamente acessíveis e informativos. Aprendi técnicas avançadas e aprimorei minhas habilidades de maneira significativa. Agora, estou confiante o suficiente para compartilhar meu trabalho com o mundo e sonhar em me tornar um artista profissional. Obrigado, 'Traços e Cores', por tornar isso possível."</th>
+          </tr>
+          <tr>
+            <th>Ana Rodrigues<img src="images/depoimento3.jpg" class="rounded float-left"></th>
+            <th>45 anos</th>
+            <th>"Fui aluna da 'Traços e Cores' por anos e posso afirmar que a experiência foi incrível. Os cursos para adultos me proporcionaram um refúgio criativo, onde pude me desconectar do estresse do dia a dia e me dedicar à arte. Os instrutores são talentosos e pacientes, e a atmosfera da classe é acolhedora. Além disso, as aulas on-line me permitiram continuar meu aprendizado de forma flexível. Este é um lugar onde todos são incentivados a explorar sua criatividade, independentemente da idade. Recomendo fortemente a 'Traços e Cores' a todos os amantes da arte."</th>
+          </tr>
+          <tr>
+            <th>Fernanda Costa<img src="images/depoimento4.jpg" class="rounded float-left"></th>
+            <th>28 anos</th>
+            <th>"Ingressar nos cursos da 'Traços e Cores' foi uma das melhores decisões que já tomei. Como alguém que sempre desejou expressar sua criatividade por meio do desenho, mas nunca soube por onde começar, os cursos desta empresa foram um verdadeiro divisor de águas para mim. Os instrutores são apaixonados e dedicados, e o ambiente de aprendizado é estimulante. Aprendi não apenas a técnica, mas também a confiança para criar arte que realmente me orgulha. Minha jornada como artista está apenas começando, e a 'Traços e Cores' é a melhor parceira nessa jornada."</th>
+          </tr>
+          <tr>
+            <th>Carlos Oliveira<img src="images/depoimento5.jpg" class="rounded float-left"></th>
+            <th>50 anos</th>
+            <th>"Nunca é tarde para seguir uma paixão, e os cursos da 'Traços e Cores' provaram isso para mim. Aos 50 anos, decidi finalmente me dedicar ao desenho, e a empresa me proporcionou uma experiência incrível. Os instrutores entendem as necessidades dos alunos mais maduros e me ajudaram a desenvolver minhas habilidades desde o básico até técnicas mais avançadas. A paciência e o apoio que recebi foram inestimáveis. Agora, estou criando obras de arte que nunca imaginei que fosse capaz. Recomendo a 'Traços e Cores' a todos que desejam explorar seu potencial artístico, independentemente da idade."</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Rodapé -->
+    <footer style="background-color: #F4EDED;">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto ml-3">
+            <p>Made by Daniel Fernando Vieira</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
